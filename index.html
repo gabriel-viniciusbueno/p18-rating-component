@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Rating Component</title>
+  <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+<!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+<!-- script -->
+  <script src="./js/script.js" defer></script>
+<!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="container">
+
+    <section class="modal-rating hide">
+      <img class="star-icon" src="assets/icon-star.svg" alt="Star Icon">
+
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+      <div class="rating-buttons-container">
+        <button class="rating-buttons">1</button>
+        <button class="rating-buttons">2</button>
+        <button class="rating-buttons">3</button>
+        <button class="rating-buttons">4</button>
+        <button class="rating-buttons">5</button>
+      </div>
+
+      <button class="button-submit">Submit</button>
+
+    </section>
+
+    <section class="modal-submitted ">
+      <div class="img-container">
+        <img src="./assets/illustration-thank-you.svg" alt="Thank You! Image">
+
+        <p>You selected <span id="your-note"></span> out of 5</p>
+      </div>
+
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </section>
+  </section>
+</body>
+</html>
