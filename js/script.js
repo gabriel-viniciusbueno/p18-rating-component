@@ -18,7 +18,7 @@ buttons.forEach((button) => {
 
 submitBtn.addEventListener('click', () => {
   if(typeof selected !== 'string'){
-    alert('Please, select your rate')
+    alert('Please, select your rate!')
   } else{
     ratingSection.classList.add('hide')
     thankYouSection.classList.remove('hide')
